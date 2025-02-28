@@ -1,0 +1,64 @@
+header{
+    background-color: chocolate;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+.nav-item .nav-link{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+
+}
+.h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+p{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: large;
+
+}
+h4{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: large;
+}
+#contact h5{
+    text-align: center;
+    background-color: blueviolet;
+}
+#contact pre{
+    left: 10%;
+    position: relative;
+}
+#service .card-header {
+    border: none;
+}
+#service table{
+    height: 400px;
+    width: 300px;
+    top: 10px;
+    left: 500px;
+    position: relative;
+}
+#service td{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+#service input, select{
+    height: 25px;
+    width: 300%;
+    border: black double;
+    background-color: white;
+}
+#service .pegination .row{
+    display: inline;
+    padding: 0%;
+}
+footer{
+    
+}

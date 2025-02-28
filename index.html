@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <ul>
+                <img src="2.jpg" height="80px" width="120px" alt="">
+            </ul>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+    <section id="home">
+        <p class="h1">home</p>
+        <div class="container-fluid">
+        <div id="demo" class="carousel slide" data-bs-target="#demo" data-bs-ride="slide">
+            <div class="carousel-indicators">
+                <button type="button" class="active" data-bs-target="#demo" data-bs-slide to="0"></button>
+                <button type="button" class="active" data-bs-target="#demo" data-bs-slide to="1"></button>
+                <button type="button" class="active" data-bs-target="#demo" data-bs-slide to="2"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="1.jpg" height="400px" width="100%" alt="">
+                </div>
+                <div class="carousel-item ">
+                    <img src="2.jpg" height="400px" width="100%" alt="">
+                </div>
+                <div class="carousel-item ">
+                    <img src="3.jpg" height="400px" width="100%" alt="">
+                </div>
+    
+            </div>
+            <button type="button" class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button type="button" class="carousel-control-next" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+        </div>
+    </section>
+    <section id="about" class="fa">  
+        <p class="h1">about</p>
+        <div class="row">
+            <div class="col-6">
+                <img src="1.jpg" height="500px" width="95%" alt="">
+            </div>
+            <div class="col-6">
+                <p class="ab-con"><i class="fa fa-gamepad"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p class="ab-con"><i class="fa fa-gamepad"></i> Aliquam laborum ex ea esse quisquam praesentium ab et voluptate totam quam cumque fugiat distinctio excepturi iure illum</p>
+                <p class="ab-con"><i class="fa fa-gamepad"></i> exercitationem recusandae provident consequuntur!</p>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <p class="h1">services</p>
+        <div class="continer-fluid">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="2.jpg" height="100%" width="100%" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5>PC-Building</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut officia inventore obcaecati omnis ea vel tempore dolorem porro fugiat facere! Incidunt aliquid omnis dolores earum veritatis tempora illo ea temporibus?</p>
+                        </div>
+                        <div class="card-footer">
+                            <h4><a href="" class="btn btn-primary">Book Now</a></h4>
+                        </div>
+                    </div>
+                    </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-header">
+                                <img src="1.jpg" height="100%" width="100%" alt="">
+                        </div>
+                        <div class="card-body">
+                                <h5>PC-Software</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut officia inventore obcaecati omnis ea vel tempore dolorem porro fugiat facere! Incidunt aliquid omnis dolores earum veritatis tempora illo ea temporibus?</p>
+                        </div>
+                        <div class="card-footer">
+                                <h4><a href="" class="btn btn-primary">Book Now</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="3.jpg" height="100%" width="100%" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5>PC-Upgrade</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut officia inventore obcaecati omnis ea vel tempore dolorem porro fugiat facere! Incidunt aliquid omnis dolores earum veritatis tempora illo ea temporibus?</p>
+                        </div>
+                        <div class="card-footer">
+                            <h4><a href="" class="btn btn-primary">Book Now</a></h4>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="h1">Contact</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <h4>Location</h4>
+                    <h5>Address</h5>
+                        <pre>
+                            Saga Hostel
+                            muttukadu - 603112
+                        </pre>  
+                    <h5>Telephone</h5>
+                    <p><a href="tel:9876543210" class="btn">9876543210</a></p>
+                    <h5>E-mail</h5>
+                    <p><a href="mailto:abcd@hmail.com" class="btn">abcd@gmail.com</a></p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <table>
+                        <tr>
+                            <td>Name</td>
+                            <td><input name="Name" type=text></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td><input name="Email" type="email"></td>
+                        </tr>
+                        <tr>
+                            <td>Mobile no.</td>
+                            <td><input name="Mobile" type="int"></td>
+                        </tr>
+                        <tr>
+                            <td>Message</td>
+                            <td><input type="text" name="Message"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="Submit" value="send" class="btn btn-primary"></td>
+                            <td><input type="Reset" class="btn btn-primary"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <h4>Social Media</h4>
+        <div class="container-fluid">
+        <div class="pegination">
+            <div class="row">3
+                    <ul>
+                        <li>
+                            <p class= "page-item"><a href="https://www.youtube.com" class="page-link" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></p>
+                        </li>
+                        <li>
+                            <p class= "page-item"><a href="https://www.facebook.com/" class="page-link" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a> </p>
+                        </li>
+                        <li>
+                            <p class= "page-item"><a href="https://http://www.instagram.com" class="page-link"target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a> </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+        <footer>
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <h4>about us</h4>
+                    <p>It's a Pc building company. Company was started in 2025 at Chennai. B&co. is a hardware company which builting computer for personal uses, office uses and selling purpose. B&co. have fulflied around 10 thousand Customers since its started.</p>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#register">Register</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <h4>Contact us</h4>
+                    <p>Chennai-600001</p>
+                    <p style = "text-transform: lowercase">abcd@gmail.com</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
